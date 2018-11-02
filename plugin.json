@@ -1,0 +1,30 @@
+{
+    "name": "DarkTheme",
+    "description": "A dark theme for Matomo",
+    "version": "0.1.0",
+    "theme": true,
+    "require": {
+       "piwik": ">=3.6.1-rc1,<4.0.0-b1"
+    },
+    "stylesheet": "stylesheets/theme.less",
+    "homepage": "",
+    "license": "GPL v3+",
+    "keywords": [],
+    "support": {
+	    "email": "",
+	    "issues": "",
+	    "forum": "",
+	    "irc": "",
+	    "source": "",
+	    "docs": "",
+	    "wiki": "",
+	    "rss": ""
+    },
+    "authors": [
+        {
+            "name": "",
+            "email": "",
+            "homepage": ""
+        }
+    ]
+}

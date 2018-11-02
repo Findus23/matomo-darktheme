@@ -1,0 +1,107 @@
+@dark-grey: #222;
+@light-grey: #eee;
+
+@theme-color-brand: #111;
+@theme-color-background-base: #111;
+@theme-color-header-background: @dark-grey;
+@theme-color-header-text: @light-grey;
+
+@theme-color-text: @light-grey;
+@theme-color-background-base: black;
+
+@theme-color-text-light: #ddd;
+@theme-color-text-lighter: #ccc;
+@theme-color-link: #1e93d1;
+
+@theme-color-menu-contrast-text: #eee;
+@theme-color-menu-contrast-textActive: white;
+@theme-color-menu-contrast-textSelected: white;
+@theme-color-menu-contrast-background: #222;
+
+@theme-color-widget-background: #222; // background-color of dashboard widgets
+@theme-color-widget-title-background: @theme-color-widget-background;
+@theme-color-widget-title-text: #eee;
+
+@theme-color-background-base: #333;
+@theme-color-background-tinyContrast: #666;
+@theme-color-background-lowContrast: #aaa;
+@theme-color-background-contrast: #ccc;
+@theme-color-background-highContrast: #eee;
+
+@theme-color-brand-contrast: #eee; // font-color of buttons
+
+@default-box-shade: none;
+
+.sparkline-colors[data-name=backgroundColor] {
+    color: white;
+}
+
+.sparkline-colors[data-name=lineColor] {
+    color: #eee;
+}
+
+.sparkline-colors[data-name=minPointColor] {
+    color: darken(#eee, 10);
+}
+
+.sparkline-colors[data-name=maxPointColor] {
+    color: darken(#eee, 10);
+}
+
+.sparkline-colors[data-name=lastPointColor] {
+    color: white; //hidden
+}
+
+.sparkline-colors[data-name=fillColor] {
+    color: #333;
+}
+
+.card-content {
+    background-color: #222;
+}
+
+.form-help {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+tr.inactive-plugin > td {
+    background-color: #333 !important;
+}
+
+.Menu--dashboard .navbar > li > .item {
+    &:hover, &:focus {
+        color: @light-grey!important;
+        background-color: #333;
+    }
+}
+
+/*
+@theme-color-brand:                    #d4291f;
+@theme-color-brand-contrast:           #ffffff;
+
+@theme-color-widget-title-text:        #0d0d0d;
+@theme-color-widget-title-background:  #f2f2f2;
+
+@theme-color-menu-contrast-text:       #666666;
+@theme-color-menu-contrast-textActive: #0d0d0d;
+@theme-color-menu-contrast-textSelected: @theme-color-menu-contrast-text;
+@theme-color-menu-contrast-background: #f2f2f2;
+
+
+@theme-color-background-base:          #fff;
+@theme-color-background-tinyContrast:  #f2f2f2;
+@theme-color-background-lowContrast:   #cccccc;
+@theme-color-background-contrast:      #5F5A60;
+@theme-color-background-highContrast:  #202020;
+@theme-color-base-series:              #ee3024;
+
+@graph-colors-data-series1: #d4291f;
+@graph-colors-data-series2: #1f78b4;
+@graph-colors-data-series3: #ff7f00;
+@graph-colors-data-series4: #33a02c;
+@graph-colors-data-series5: #6a3d9a;
+@graph-colors-data-series6: #b15928;
+@graph-colors-data-series7: #fdbf6f;
+@graph-colors-data-series8: #cab2d6;
+*/
